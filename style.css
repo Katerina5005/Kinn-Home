@@ -85,9 +85,14 @@ a, .logo {
 }
 
 .article {
-    font-size: 64px;
-    margin: 80px;
-    padding-left: 130px;
+    font-size: 60px;
+    margin: 70px;
+    padding-left: 150px;
     padding-right: 100px;
-    line-height: 150%;  
+    line-height: 140%;  
+}
+
+.article__follow {
+    margin-left: 35%;
+    
 }
