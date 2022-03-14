@@ -49,10 +49,6 @@ a, .logo {
     padding: 15px;
 }
 
-.text__pics {
-  
-}
-
 .text__pic {
     position: absolute;
     bottom: 8px;
@@ -94,5 +90,35 @@ a, .logo {
 
 .article__follow {
     margin-left: 35%;
-    
+    margin-bottom: 80px;   
+}
+
+.board-collection {
+    display: flex;
+    max-width: 1080px;
+    background-color: #f5f5cf;;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.collection {
+    position: absolute;
+    text-align: center;
+    margin-left: 27%;
+    padding: 30px;
+    font-size: 24px;
+    letter-spacing: .1rem;
+}
+.board__discr, .price {
+    align-self: center;
+    bottom: 10px;
+    letter-spacing: .0.5rem;
 }
