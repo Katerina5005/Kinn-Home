@@ -1,5 +1,5 @@
 body {
-    margin-left: 0;
+    margin-left: 0px;
     margin-top: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -19,9 +19,9 @@ body {
 }
 
 a, .logo {
-    margin-left: 40px;
+    margin-left: 50px;
     justify-content: space-between;
-    font-style: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: .2rem;
@@ -30,3 +30,18 @@ a, .logo {
     margin-left: 10%;
     font-size: 32px;
 }
+
+.nav__picbcg {
+    background-color: #f5f5cf;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 93px;
+}
+
+.nav__pic {
+    position: relative;
+    width: 1240px;
+    height: 730px;
+    padding: 15px;
+}
+
