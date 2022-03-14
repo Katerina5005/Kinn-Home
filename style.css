@@ -4,12 +4,13 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #56593D;
 }
 
 .nav__line {
     width: 100%;
     height: 16px;
-    background: #f5f5cf;
+    background: #f8f8df;
 }
 
 .nav__links {
@@ -25,6 +26,7 @@ a, .logo {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: .2rem;
+    color: #56593D;
 }
 .logo {
     margin-left: 10%;
@@ -36,7 +38,7 @@ a, .logo {
 .nav__picbcg {
     background-color: #f5f5cf;
     margin-left: 150px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-right: 93px;
     
 }
@@ -54,7 +56,7 @@ a, .logo {
 .text__pic {
     position: absolute;
     bottom: 8px;
-    right: 160px;
+    right: 120px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     padding: 50px;
@@ -63,17 +65,29 @@ a, .logo {
 .middle__text__pic{
     position: absolute;
     bottom: -70px;
-    right: 200px;
+    right: 170px;
     font-size: 50px;
-    
+    color:  #56593D;
+    letter-spacing: .1rem;
 }
 
 .btn__pic {
     position: absolute;
     bottom: -100px;
-    right: 200px;
+    right: 180px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
+    background: #56593D;
+    border-radius: 5px;
+    color: rgb(252, 213, 219);
+}
+
+.article {
+    font-size: 64px;
+    margin: 80px;
+    padding-left: 130px;
+    padding-right: 100px;
+    line-height: 150%;  
 }
